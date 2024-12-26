@@ -14,7 +14,7 @@ const homeinfo = await getHomeInfo();
   return (
     <>
       <div>
-      {/* <p>{JSON.stringify(homeinfo)}</p> */}
+      <p>{JSON.stringify(homeinfo)}</p>
 
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

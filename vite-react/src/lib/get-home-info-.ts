@@ -1,6 +1,6 @@
 import {query } from "./strapi"
 
-export function getHomeInfo() {
+export async function getHomeInfo() {
     return query("home").then(res => {
         console.log(res)
         return res
